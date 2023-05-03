@@ -22,15 +22,15 @@
         <h1 class="title">PHP <span class="text-decoration-line-through fw-lighter">Badwords</span></h1>
     </header>
     <main class="container d-flex flex-column align-items-center justify-content-center mt-3">
-        <div class="box-old d-flex flex-column align-items-center justify-content-center">
+        <div class="box-old d-flex flex-column align-items-center justify-content-center p-2">
             <h4 class="fst-italic text-white">This is your paragraph:</h4>
-            <span class="fw-semibold fs-3"> <?php echo "$paragraph" ?> </span>
-            <span class="text-decoration-underline"> <?php echo 'The paragraph lenght is:' . ' ' . strlen($paragraph) . ' ' . 'characters' ?> </span>
+            <span class="fw-semibold fs-5"> <?php echo "$paragraph" ?> </span>
+            <span class="text-decoration-underline text-danger fw-semibold"> <?php echo 'The paragraph lenght is:' . ' ' . strlen($paragraph) . ' ' . 'characters' ?> </span>
         </div>
-        <div class="box-new d-flex flex-column align-items-center justify-content-center">
+        <div class="box-new d-flex flex-column align-items-center justify-content-center p-2">
             <h4 class="fst-italic text-white">This is the NEW paragraph:</h4>
-            <span class="fw-semibold fs-3"> <?php echo "$newParagraph" ?> </span>
-            <span class="text-decoration-underline"> <?php echo 'The new paragraph lenght is:' . ' ' . strlen($newParagraph) . ' ' . 'characters' ?> </span>
+            <span class="fw-semibold fs-5"> <?php echo "$newParagraph" ?> </span>
+            <span class="text-decoration-underline text-danger fw-semibold"> <?php echo 'The new paragraph lenght is:' . ' ' . strlen($newParagraph) . ' ' . 'characters' ?> </span>
         </div>
     </main>
     <hr class="container w-25">

@@ -1,0 +1,48 @@
+#index{
+    background: rgb(255,66,130);
+    background: linear-gradient(90deg, rgba(255,66,130,1) 0%, rgba(255,0,0,1) 100%);
+}
+#result{
+    background: rgb(255,85,0);
+    background: linear-gradient(90deg, rgba(255,85,0,1) 0%, rgba(249,255,0,1) 100%);
+}
+.box-logo{
+    width: 400px;
+    height: 300px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    font-size: 4rem;
+    font-weight: bold ;
+}
+label{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+textarea, input{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.box-old, .box-new{
+    border: 2px solid black;
+    width: 25%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
